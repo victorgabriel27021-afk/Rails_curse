@@ -9,7 +9,6 @@
 #   end
 
 puts "Cadastrando moedas!..."
-
 Coin.create!(
 	description: "Bitcoin",
 	acronym: "BTC",
@@ -27,5 +26,4 @@ Coin.create!(
 	acronym: "DASH",
 	url_image: "https://cdn.freebiesupply.com/logos/large/2x/dash-3-logo-png-transparent.png"
 )
-
 puts "Moedas cadastradas!"
